@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDBR | Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="index.html"><div class="logo">ID</div><div><h1>Institute for Drug Delivery and Biomedical Research</h1><small>Drug Delivery Research</small></div></a>
+    <nav class="links">
+      <a href="about.html">About</a><a class="active" href="research.html">Research</a><a href="services.html">Services</a><a href="training.html">Training</a><a href="conferences.html">Conferences</a><a href="publications.html">Publications</a><a href="careers.html">Careers</a><a href="resources.html">Resources</a><a class="cta" href="contact.html">Contact Us</a>
+    </nav>
+    <button class="mobile" onclick="toggleMobileMenu()">Menu</button>
+  </div>
+  <div class="mobilemenu" id="mobileMenu">
+    <a href="about.html">About</a><a href="research.html">Research</a><a href="services.html">Services</a><a href="training.html">Training</a><a href="conferences.html">Conferences</a><a href="publications.html">Publications</a><a href="careers.html">Careers</a><a href="resources.html">Resources</a><a href="contact.html">Contact Us</a>
+  </div>
+</header>
+
+<section class="hero alt" style="background:linear-gradient(rgba(10,35,66,.82),rgba(10,35,66,.82)), url('https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;">
+  <div class="wrap">
+    <div class="label">Research Divisions</div>
+    <h2>Scientific <span>Excellence</span></h2>
+    <p>Three core research pillars driving pharmaceutical innovation and translational science.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="panel" style="background:linear-gradient(135deg,var(--teal),var(--navy2));color:#fff">
+      <div class="panelin" style="display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center">
+        <div>
+          <div class="badge" style="background:rgba(255,255,255,.14);color:#fff">Flagship Capability</div>
+          <h3 style="font-size:32px">Topical & Dermal Research</h3>
+          <p style="color:rgba(255,255,255,.82)">Specializing in skin permeation science, topical product development, and in vitro skin testing with state-of-the-art Franz Diffusion Cell facilities.</p>
+          <div class="chips" style="margin-top:18px">
+            <span class="chip" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.18);color:#fff">IVPT Studies</span>
+            <span class="chip" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.18);color:#fff">IVRT Studies</span>
+            <span class="chip" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.18);color:#fff">Franz Diffusion Cell</span>
+            <span class="chip" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.18);color:#fff">Skin Permeation</span>
+          </div>
+        </div>
+        <img src="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?auto=format&fit=crop&w=1200&q=70" alt="research lab">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg">
+  <div class="wrap">
+    <div class="tabs">
+      <button class="active" onclick="showTab(event,'drug')">Drug Delivery</button>
+      <button onclick="showTab(event,'topical')">Topical & Dermal</button>
+      <button onclick="showTab(event,'biomedical')">Biomedical</button>
+    </div>
+    <div id="drug" class="grid-4 tab">
+      <div class="card-mini">Oral Drug Delivery</div>
+      <div class="card-mini">Controlled Release Systems</div>
+      <div class="card-mini">Transdermal Delivery</div>
+      <div class="card-mini">Nanoparticle Systems</div>
+      <div class="card-mini">Liposomes</div>
+      <div class="card-mini">Targeted Drug Delivery</div>
+      <div class="card-mini">Colon Delivery Systems</div>
+      <div class="card-mini">Bioavailability Enhancement</div>
+    </div>
+    <div id="topical" class="grid-4 tab" style="display:none">
+      <div class="card-mini">IVPT Studies</div>
+      <div class="card-mini">IVRT Studies</div>
+      <div class="card-mini">Franz Diffusion Cell Studies</div>
+      <div class="card-mini">Dermal Absorption</div>
+      <div class="card-mini">Bioequivalence Support</div>
+      <div class="card-mini">Topical Product Development</div>
+    </div>
+    <div id="biomedical" class="grid-4 tab" style="display:none">
+      <div class="card-mini">Biomaterials</div>
+      <div class="card-mini">Tissue Engineering</div>
+      <div class="card-mini">Drug-Device Combinations</div>
+      <div class="card-mini">Translational Research</div>
+      <div class="card-mini">Healthcare Innovations</div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Institute for Drug Delivery and Biomedical Research, Bengaluru.</footer>
+<script src="script.js"></script>
+</body>
+</html>

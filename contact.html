@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IDBR | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="index.html"><div class="logo">ID</div><div><h1>Institute for Drug Delivery and Biomedical Research</h1><small>Drug Delivery Research</small></div></a>
+    <nav class="links">
+      <a href="about.html">About</a><a href="research.html">Research</a><a href="services.html">Services</a><a href="training.html">Training</a><a href="conferences.html">Conferences</a><a href="publications.html">Publications</a><a href="careers.html">Careers</a><a href="resources.html">Resources</a><a class="cta active" href="contact.html">Contact Us</a>
+    </nav>
+    <button class="mobile" onclick="toggleMobileMenu()">Menu</button>
+  </div>
+  <div class="mobilemenu" id="mobileMenu">
+    <a href="about.html">About</a><a href="research.html">Research</a><a href="services.html">Services</a><a href="training.html">Training</a><a href="conferences.html">Conferences</a><a href="publications.html">Publications</a><a href="careers.html">Careers</a><a href="resources.html">Resources</a><a href="contact.html">Contact Us</a>
+  </div>
+</header>
+
+<section class="hero alt" style="background:linear-gradient(rgba(10,35,66,.82),rgba(10,35,66,.82)), url('https://images.unsplash.com/photo-1579165466991-467135ad3110?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;">
+  <div class="wrap">
+    <div class="label">Contact</div>
+    <h2>Let’s Start <span>Collaborating</span></h2>
+    <p>Whether you're a student seeking training, an industry professional, or an academic collaborator, we'd love to hear from you.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap contact-grid">
+    <div class="panel info">
+      <div class="panelin">
+        <div class="item">
+          <div class="ibox">📍</div>
+          <div><h3>Location</h3><p>Bengaluru, Karnataka, India</p></div>
+        </div>
+        <div class="item">
+          <div class="ibox">📞</div>
+          <div><h3>Phone</h3><p><a href="tel:+919845577103">+91 98455 77103</a></p></div>
+        </div>
+        <div class="item">
+          <div class="ibox">✉️</div>
+          <div><h3>Email</h3><p><a href="mailto:ContactIDBR@gmail.com">ContactIDBR@gmail.com</a></p></div>
+        </div>
+        <div class="item" style="border-bottom:0">
+          <div class="ibox">🌐</div>
+          <div><h3>Website</h3><p><a href="https://www.IDBResearch.com">www.IDBResearch.com</a></p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panelin">
+        <h3>Send enquiry</h3>
+        <form>
+          <div class="row">
+            <input placeholder="Your name">
+            <input placeholder="Email address">
+          </div>
+          <div class="row">
+            <input placeholder="Organization">
+            <select>
+              <option>General enquiry</option>
+              <option>Training</option>
+              <option>Research collaboration</option>
+              <option>Industry services</option>
+              <option>Conference / Sponsorship</option>
+            </select>
+          </div>
+          <textarea placeholder="Tell us about your requirement"></textarea>
+          <button class="submit" type="button">Submit Enquiry</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Institute for Drug Delivery and Biomedical Research, Bengaluru.</footer>
+<script src="script.js"></script>
+</body>
+</html>
