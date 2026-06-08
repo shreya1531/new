@@ -147,7 +147,7 @@ button,input,select,textarea{font:inherit}
 }
 .hero.alt{min-height:54vh}
 .hero .wrap{
-  padding:90px 40px;
+  padding:10px 40px;
 }
 .hero h2{
   font-family:'Playfair Display',serif;
